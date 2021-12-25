@@ -1,0 +1,32 @@
+package com.study.springcore.case06;
+
+public class getCircle implements Round{
+	protected Integer r;
+		
+
+	@Override
+	public double getRoundArea() {
+		System.out.println();
+	}
+
+	public Integer getR() {
+		return r;
+	}
+
+	@Override
+	public void setRadius(double ) {
+    
+		this.r =r;
+	}
+
+	@Override
+	public double getRadius() {
+
+		return  r*r*Math.PI;
+	}
+
+	
+
+	}
+
+}

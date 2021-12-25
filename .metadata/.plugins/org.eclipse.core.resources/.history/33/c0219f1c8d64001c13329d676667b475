@@ -1,0 +1,6 @@
+package com.study.springcore.case4;
+
+public interface Currency {
+		double getvalue();
+		void setValue();
+}

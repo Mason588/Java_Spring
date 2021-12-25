@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+D:\MyWeb2021\Java_Spring\.metadata\.plugins\org.eclipse.jdt.core
+1468007358.index
+3870881350.index
+3819847513.index
+1488594900.index
+3006550732.index
+2631747023.index
+2052640827.index
+1865797976.index
+265432233.index
+1072779647.index
+1231102346.index

@@ -1,0 +1,18 @@
+package com.study.springcore.case05;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test001 {
+
+	public static void main(String[] args) {
+	ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext5.xml");
+		
+		Student john = ctx.getBean("s1", Student.class);
+		System.out.println(john);
+
+		//Student Mary = ctx.getBean("s2", Student.class);
+		//System.out.println(Mary);
+	}
+
+}

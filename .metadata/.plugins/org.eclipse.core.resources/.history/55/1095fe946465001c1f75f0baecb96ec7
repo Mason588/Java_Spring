@@ -1,0 +1,27 @@
+package com.study.springcore.case05;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test001 {
+
+	public static void main(String[] args) {
+	ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext5.xml");
+		
+		Student john = ctx.getBean("s1", Student.class);
+		System.out.println(john);
+
+		Student mary = ctx.getBean("s2", Student.class);
+		System.out.println(mary);
+		
+		//請問Mary老師有誰? 印出name
+		System.out.println(mary.getName() + "的課程" + mary.getClazzs());
+		Teacher[ ] teachers = {ctx.getBean("t1", Teacher.class),ctx.getBean("t2", Teacher.class)};
+		
+		for(Teacher teacher : teachers) {
+			
+		}
+		System.out.println(mary.getClazzs());
+	}
+
+}

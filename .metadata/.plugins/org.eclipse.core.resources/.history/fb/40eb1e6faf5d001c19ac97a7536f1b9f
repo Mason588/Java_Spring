@@ -1,0 +1,21 @@
+package com.study.springcore.case01;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx =new  ClassPathXmlApplicationContext("applicationContext.xml");
+		/*
+		CPU  cpu = ctx.getBean(CPU.class);
+		cpu.setGhz(2.8);
+		
+		CPU  cpu2 = ctx.getBean(CPU.class);
+		cpu.setGhz(3.1);
+		System.out.println(cpu);
+		System.out.println(cpu2);
+		*/
+	}
+
+}

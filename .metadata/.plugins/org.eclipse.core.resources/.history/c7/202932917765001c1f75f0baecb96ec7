@@ -1,0 +1,23 @@
+package com.study.springcore.case06;
+
+public class Circle extends CircleImpl{
+
+	@Override
+	public double getRoundArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setRadius(double r) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double getRadius() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

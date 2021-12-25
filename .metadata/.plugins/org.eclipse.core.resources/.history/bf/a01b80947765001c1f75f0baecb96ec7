@@ -1,0 +1,24 @@
+package com.study.springcore.case06;
+
+public class Circle extends CircleImpl{
+
+	//得到圓面積
+	@Override
+	public double getRoundArea() {
+
+		return r*r*Math.PI;
+	}
+
+	@Override
+	public void setRadius(double r) {
+		this.r = r;
+		
+	}
+
+	@Override
+	public double getRadius() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

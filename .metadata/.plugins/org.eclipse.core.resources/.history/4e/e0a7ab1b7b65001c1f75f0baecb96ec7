@@ -1,0 +1,17 @@
+package com.study.springcore.case06;
+
+public abstract class CircleImpl implements Round{
+	protected double r;
+
+	public double getR() {
+		return r;
+	}
+
+	public void setR(double r) {
+		this.r = r;
+	}
+
+	
+		
+
+}
